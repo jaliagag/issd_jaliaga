@@ -1,0 +1,19 @@
+* {
+    color: red;
+    background-color: greenyellow;
+    text-align: center;
+}
+
+/* IDS */
+
+#loremp_5 {
+    color:black;
+    font-size: 29px;
+}
+
+/* CLASES */
+
+.loremp_3 {
+    color: brown;
+    font-size: 50px;
+}

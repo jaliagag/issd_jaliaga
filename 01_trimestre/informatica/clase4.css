@@ -1,0 +1,44 @@
+/* APLICAR ESTILO A ETIQUETAS */
+
+p {
+    font-weight: bold;
+    font-size: 30px;
+    color: blueviolet;
+}
+
+header, nav {
+    background-color: aqua;
+    width: 50%;
+    text-align: center;
+}
+
+.contenedor {
+    background-color: violet;
+    width: 400px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.box1 {
+    background-color: red;
+    /*position: absolute;*/
+/*     position: fixed; */
+    position: sticky;
+    left: 200px;
+    top: 0;
+}
+
+.box2 {
+    background-color: blue;
+}
+
+.box3 {
+    background-color: green;
+}
+
+.box4 {
+    background-color: yellow;
+}
