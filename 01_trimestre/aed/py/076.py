@@ -26,12 +26,3 @@ carga = cargar(q)
 x = mayormenor(carga)
 print(x)
 print(type(x))
-
-
-
-
-
-
-
-
-

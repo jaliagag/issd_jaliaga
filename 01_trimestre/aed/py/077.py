@@ -17,11 +17,10 @@ def mayor_sueldo(tuple1,tuple2):
         mayor = tuple1[0]
     else:
         mayor = tuple2[0]
-    print(mayor)
     return mayor
 
 
 # bloque principal 
 empleado1=cargar_empleado() 
 empleado2=cargar_empleado() 
-mayor_sueldo(empleado1,empleado2)
+print('mayor sueldo:',mayor_sueldo(empleado1,empleado2))
