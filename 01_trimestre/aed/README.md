@@ -87,8 +87,6 @@ print(fecha)
 dd,mm,aa=fecha
 ```
 
-
-
 ### for para recorrer tuplas y listas
 
 
