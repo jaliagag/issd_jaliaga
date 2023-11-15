@@ -31,5 +31,64 @@ while position < len(lista):
 
 ### parámetros de tipo lista en funciones
 
+ una función puede recibir tanto datos simples como estructuras de datos. Ya hemos estudiado en clases anteriores una estructura de datos: la lista. una función también puede retornar una estructura de datos tipo lista. Con esto estamos logrando que una función retorne varios datos ya que una lista es una colección de dato.
+
+Python también nos permite descomponer los valores devueltos por la función en varias variables que reciban cada elemento de esa lista: # bloque principal del programa lista=carga_lista() mayor, menor=retornar_mayormenor(lista) print("Mayor elemento de la lista:",mayor) print("Menor elemento de la lista:",menor). Cada elemento de la lista se guarda en el mismo orden, es decir la componente 0 de la lista se guarda en la variable mayor y la componente 1 de la lista se guarda en la variable menor.
+
+ejemplo:
+
+```python
+lista = [1,2,3,-1,-2-,3]
+
+def comparar(lista):
+    p = []
+    n = []
+    for i in range(len(lista)):
+        if lista[i] >= 0:
+            p.append(lista[i])
+        else:
+            n.append(lista[i])
+    return p, n
+
+positivos, negativos = comparar(lista)
+```
+ 
+- desempeños del 70 al 75
+
+## clase 10
+
+### tuplas vs listas
+
+Una tupla permite almacenar una colección de datos no necesariamente del mismo tipo. | Los datos de la tupla son inmutables a diferencia de las listas que son mutables. Esto implica que una vez inicializada la tupla no podemos agregar, borrar o modificar sus elementos. elementos. La sintaxis para definir una tupla es indicar entre paréntesis sus valores
+
+Podemos acceder a los elementos de una tupla en forma similar a una lista por medio de un subíndice: `print(punto[0])`
+
+Utilizamos una tupla para agrupar datos que por su naturaleza están relacionados y que no serán modificados durante la ejecución del programa
+
+la conversión de tuplas a listas y viceversa mediante las funciones: `list(parametro de tipo tupla)` `tuple(parametro de tipo lista)`
+
+Podemos generar una tupla asignando a una variable un conjunto de variables o valores separados por coma
+
+```py
+x=10 
+y=30 
+punto=x,y 
+print(punto)
+#(10, 30)
+print(type(punto))
+#<class 'tuple'>
+```
+
+el desempaquetado de la tupla "fecha" se produce cuando definimos tres variables separadas por coma y le asignamos una tupla
+
+```py
+fecha=(25, "diciembre", 2016) 
+print(fecha) 
+dd,mm,aa=fecha
+```
+
+### for para recorrer tuplas y listas
+
+
 
 
