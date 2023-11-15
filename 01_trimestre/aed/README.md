@@ -89,6 +89,37 @@ dd,mm,aa=fecha
 
 ### for para recorrer tuplas y listas
 
+una segunda forma de acceder a los elementos de una lista con la estructura repetitiva for sin indicar subíndices.
+
+```py
+lista=[2, 3, 50, 7, 9] 
+for elemento in lista: 
+    print(elemento) 
+```
+
+Como podemos ver la instrucción for requiere una variable (en este ejemplo llamada elemento), luego la palabra clave in y por último el nombre de la lista. El bloque del for se ejecuta tantas veces como elementos tenga la lista, y en cada vuelta del for la variable elemento almacena un valor de la lista.
+
+Algo nuevo podemos ver ahora en el for para recuperar cada tupla almacenada en la lista. Podemos ver que desempaquetamos la tupla que devuelve el for en cada vuelta en las variables nombre y sueldo. Esto nos facilita la impresión de los datos sin tener que indicar subíndices para los elementos de la tupla:
+
+```py
+def cargar(): 
+    empleados=[] 
+    for x in range(5): 
+        nombre=input("Nombre del empleado:") 
+        sueldo=int(input("Ingrese el sueldo:")) 
+        empleados.append((nombre,sueldo)) 
+    return empleados
+
+def imprimir(empleados): 
+    print("Listado de los nombres de empleados y sus sueldos") 
+    for nombre,sueldo in empleados: 
+        print(nombre,sueldo)
+
+lista = cargar()
+imprimir(lista)
+```
+
+
 
 
 
