@@ -119,6 +119,57 @@ lista = cargar()
 imprimir(lista)
 ```
 
+## clase 11
+
+### diccionarios y su diferencia con las demás estructuras
+
+La estructura de datos tipo diccionario utiliza una clave para acceder a un valor. Este valor puede ser un entero, un float, un string, una tupla etc.
+
+Recordemos que las listas son mutables y las tuplas inmutables. Un diccionario es una estructura de datos mutable es decir: que podemos agregar, modificar y borrar sus elementos.
+
+Definición de un diccionario por asignación. 
+
+`productos={"manzanas":39, "peras":32, "lechuga":17}`
+
+Mediante el ciclo repetitivo for podemos acceder sucesivamente a las claves almacenadas en el diccionario y luego conociendo la clave podemos acceder al valor de forma similar a las listas indicando como subíndice la clave:
+
+```py
+paises={"argentina":40000000, "españa":46000000, "brasil":190000000, "uruguay": 3400000}
+
+for clave in paises:
+    print(clave,paises[clave])
+
+#argentina 40000000
+#españa 46000000
+#brasil 190000000
+#uruguay 3400000
+```
+
+Crear un diccionario:
+
+```py
+productos={} 
+for x in range(5): 
+    nombre=input("Ingrese el nombre del producto:")
+    precio=int(input("Ingrese el precio:")) 
+    productos[nombre]=precio
+```
+
+Si ya existe el nombre de producto en el diccionario se modifica el valor para esa clave
+
+Para consultar si una clave se encuentra en el diccionario podemos utilizar el operador `in`: 
+
+```py
+if clave in diccionario: 
+    print(diccionario[clave])
+```
+
+### implementación de estructuras de datos con valores tipo listas, tuplas y diccionarios
+
+Lo más poderoso que podemos encontrar en las estructuras de datos en Python es que podemos definir elementos que sean también estructuras de datos. En general se dice que podemos anidar una estructura de datos dentro de otra estructura de datos.
+
+Hemos dicho que un diccionario consta de claves y valores para esas claves. A continuación, desarrollaremos problemas donde los valores para esas claves sean tuplas y o listas.
+
 
 
 
