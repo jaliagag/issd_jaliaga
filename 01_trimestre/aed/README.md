@@ -1,4 +1,16 @@
 
+## clase 1
+
+La actividad fundamental del programador es resolver problemas empleando el ordenador como herramienta fundamental
+
+un grupo de instrucciones (Algoritmo)
+
+Un algoritmo son los pasos secuenciales, son los que deben ser ejecutados uno después de otro, y los pasos ordenados son los que deben llevar un orden obligatorio. Como puede notarse, lo que permite un algoritmo es lograr un objetivo.
+
+### diagrama de flujo
+
+
+
 ## clase 7
 
 ### listas
