@@ -9,6 +9,32 @@ Un algoritmo son los pasos secuenciales, son los que deben ser ejecutados uno de
 
 ### diagrama de flujo
 
+Los diagramas de flujo son la representación gráfica de un ALGORITMO. Se les llama diagramas de flujo, porque los símbolos utilizados se conectan por medio de flechas para indicar la secuencia de operación.
+
+<kbd>![image 001](./images/001.png)</kbd>
+
+Las ventajas de usar diagramas de flujo son: 
+
+- Favorecen la comprensión del proceso a través de mostrarlo como un dibujo. Un buen diagrama de flujo reemplaza varias páginas de texto. 
+- Permiten distinguir los problemas y las oportunidades de mejora del proceso. 
+- Se identifican los pasos redundantes, los conflictos, las responsabilidades y los puntos de decisión.
+
+todo problema está constituido por: 
+
+- Datos conocidos: Datos con los que se cuenta al comenzar el problema. 
+- Proceso: Operaciones a realizar con los datos conocidos. 
+- Información resultante: Es la información que se obtiene del proceso y nos permite resolver el problema.
+
+Una variable es un depósito donde hay un valor. Consta de un nombre y pertenece a un tipo de dato. Usar nombres representativos de las variables. Los nombres de variable no pueden tener espacios en blanco, caracteres especiales o empezar con un número.
+
+Python es sensible a mayúsculas y minúsculas
+
+- A los errores tipográficos, como por ejemplo indicar el nombre incorrecto de la función, nombres de variables incorrectas, falta de paréntesis, palabras claves mal escritas, etc, los llamamos errores SINTÁCTICOS. Un programa no se puede ejecutar sin corregir absolutamente todos los errores sintácticos. 
+- Existe otro tipo de errores llamados ERRORES LÓGICOS. Este tipo de errores en programas grandes (miles de líneas) son más difíciles de localizar. Por ejemplo, un programa que permite hacer la facturación, pero la salida de datos por impresora es incorrecta.
+
+Cuando en un problema solo participan operaciones, entradas y salidas se la denomina una estructura secuencial (o lineal, vs programacion estructurada - clase 8).
+
+
 
 
 ## clase 7
@@ -43,7 +69,7 @@ while position < len(lista):
 
 ### parámetros de tipo lista en funciones
 
- una función puede recibir tanto datos simples como estructuras de datos. Ya hemos estudiado en clases anteriores una estructura de datos: la lista. una función también puede retornar una estructura de datos tipo lista. Con esto estamos logrando que una función retorne varios datos ya que una lista es una colección de dato.
+una función puede recibir tanto datos simples como estructuras de datos. Ya hemos estudiado en clases anteriores una estructura de datos: la lista. una función también puede retornar una estructura de datos tipo lista. Con esto estamos logrando que una función retorne varios datos ya que una lista es una colección de dato.
 
 Python también nos permite descomponer los valores devueltos por la función en varias variables que reciban cada elemento de esa lista: # bloque principal del programa lista=carga_lista() mayor, menor=retornar_mayormenor(lista) print("Mayor elemento de la lista:",mayor) print("Menor elemento de la lista:",menor). Cada elemento de la lista se guarda en el mismo orden, es decir la componente 0 de la lista se guarda en la variable mayor y la componente 1 de la lista se guarda en la variable menor.
 
