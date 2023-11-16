@@ -34,7 +34,7 @@ Python es sensible a mayúsculas y minúsculas
 
 Cuando en un problema solo participan operaciones, entradas y salidas se la denomina una estructura secuencial (o lineal, vs programacion estructurada - clase 8).
 
-
+## clase 2
 
 
 ## clase 7
