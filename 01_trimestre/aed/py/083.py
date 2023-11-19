@@ -34,9 +34,9 @@ def cargar(cantidad):
 #print(cargar(2))
 # [{'DNI': 123, 'notas': [('mate', 8), ('historia', 2), ('geografia', 9)]}, {'DNI': 678, 'notas': [('mate', 2)]}]
 
-def consultar(id, diccionario):
+def consultar(id, una_lista):
     found = 0
-    for i in diccionario:
+    for i in una_lista:
         if i['DNI'] == id:
             for h in i['notas']:
                 print('\t',h[0],h[1])
